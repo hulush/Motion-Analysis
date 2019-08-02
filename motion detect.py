@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('obs_2.mp4')
+cap = cv2.VideoCapture('Circle.mp4')
 frame_width = int( cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 frame_height =int( cap.get( cv2.CAP_PROP_FRAME_HEIGHT))
 fourcc = cv2.VideoWriter_fourcc('X','V','I','D')
